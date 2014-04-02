@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'validation/version'
 
 Gem::Specification.new do |s|
-  s.name = 'valid'
+  s.name = 'validator'
   s.version = Validation::VERSION
   s.authors = ['Jeremy Bush']
   s.email = ['contractfrombelow@gmail.com']
